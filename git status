@@ -1,0 +1,72 @@
+[33mcommit 90cf22d55c1d41c2e4aa9d812f009172720d9ff8[m[33m ([m[1;36mHEAD -> [m[1;32mbugfix/table-2[m[33m)[m
+Author: Juhász Ádám <juhad222@gmail.com>
+Date:   Mon Dec 5 14:06:47 2022 +0100
+
+    Added something
+
+[33mcommit 12bc89e423b31850eafd55116e183125c14c3219[m
+Author: Juhász Ádám <juhad222@gmail.com>
+Date:   Mon Dec 5 14:05:05 2022 +0100
+
+    Added 2nd cell
+
+[33mcommit cae5a545c9170aa05cb26c5ed87773df9271debc[m
+Merge: afa6fb2 82199b3
+Author: Juhász Ádám <juhad222@gmail.com>
+Date:   Mon Dec 5 13:53:26 2022 +0100
+
+    Merge branch 'bugfix/table'
+
+[33mcommit afa6fb2c716b9aeea9149b6817be68b4d81eb73e[m
+Author: Juhász Ádám <juhad222@gmail.com>
+Date:   Mon Dec 5 13:50:05 2022 +0100
+
+    Learning branch
+
+[33mcommit 82199b3f14f1070f62d3259162543d79b4126a93[m[33m ([m[1;32mbugfix/table[m[33m)[m
+Author: Juhász Ádám <juhad222@gmail.com>
+Date:   Mon Dec 5 13:43:09 2022 +0100
+
+    Added table row
+
+[33mcommit dfc5f2cc653f293f4ade3cdd514a201fce477b86[m[33m ([m[1;32mfeature/new-table[m[33m)[m
+Author: Juhász Ádám <juhad222@gmail.com>
+Date:   Mon Dec 5 13:32:20 2022 +0100
+
+    Changed index.html
+
+[33mcommit 6f0f03c5923e25d673dfbf08ee4c885b8d16a9a0[m
+Author: Juhász Ádám <juhad222@gmail.com>
+Date:   Mon Dec 5 13:27:41 2022 +0100
+
+    Added gitignore conf
+
+[33mcommit 1096c6307849a3efcda3fcaf99e762d1945e970d[m
+Author: Juhász Ádám <juhad222@gmail.com>
+Date:   Mon Dec 5 13:24:20 2022 +0100
+
+    Remove temp folder
+
+[33mcommit e1e67f7f610555c8121328e467761f7e67299f98[m
+Author: Juhász Ádám <juhad222@gmail.com>
+Date:   Mon Dec 5 13:05:39 2022 +0100
+
+    Add temp folder
+
+[33mcommit 10a7359cc2fb2d528d7983e4ea0cfced0d7a41bc[m
+Author: Juhász Ádám <juhad222@gmail.com>
+Date:   Mon Dec 5 12:59:08 2022 +0100
+
+    Improve readme
+
+[33mcommit 9f7edfc706bd17e27f21f0843477b2e0ec51df42[m
+Author: Juhász Ádám <juhad222@gmail.com>
+Date:   Mon Dec 5 12:57:11 2022 +0100
+
+    Added first page
+
+[33mcommit 763db8ca323a44fadf4a220a2c13dd03251e7ad6[m
+Author: Juhász Ádám <juhad222@gmail.com>
+Date:   Mon Dec 5 12:47:36 2022 +0100
+
+    My first commit
