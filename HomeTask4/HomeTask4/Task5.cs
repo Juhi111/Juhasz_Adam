@@ -20,8 +20,8 @@ namespace HomeTask4
                 var valami = names[i].Split(':');
                 guests.Add(new Guests()
                 {
-                    firstName = valami[0],
-                    lastName = valami[1],
+                    firstName = valami[0].ToUpper(),
+                    lastName = valami[1].ToUpper(),
                 });
             }
 
