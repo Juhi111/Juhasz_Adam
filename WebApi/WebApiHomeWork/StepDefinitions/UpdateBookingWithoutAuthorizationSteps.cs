@@ -11,26 +11,20 @@ namespace WebApiHomeWork.StepDefinitions
     [Binding]
     public class UpdateBookingWithoutAuthorizationSteps
     {
-        private readonly RestClient _client;
         private readonly UpdateBookingContext _updateBookingContext;
-        public UpdateBookingWithoutAuthorizationSteps(ScenarioContext context)
+        public UpdateBookingWithoutAuthorizationSteps()
         {
-            _client = context.Get<RestClient>("Client");
-            _updateBookingContext = new UpdateBookingContext(_client);
+            _updateBookingContext = new UpdateBookingContext();
         }
-
         [Given(@"booking by an Id to update but the auth is wrong")]
         public void GivenBookingByAnIdToUpdateButTheAuthIsWrong()
         {
             _updateBookingContext.AddHeadersWithWrongAuth();
         }
-
         [Then(@"should get back an error code")]
         public void ThenShouldGetBackAnErrorCode()
         {
             _updateBookingContext.Response().Should().BeNull();
         }
-
-
     }
 }

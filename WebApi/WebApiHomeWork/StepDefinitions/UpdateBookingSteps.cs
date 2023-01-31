@@ -11,32 +11,22 @@ namespace WebApiHomeWork.StepDefinitions
     [Binding]
     public class UpdateBookingSteps
     {
-        private readonly RestClient _client;
         private readonly UpdateBookingContext _updateBookingContext;
-        public UpdateBookingSteps(ScenarioContext context)
-        {
-            _client = context.Get<RestClient>("Client");
-            _updateBookingContext = new UpdateBookingContext(_client);
+        public UpdateBookingSteps()
+        {;
+            _updateBookingContext = new UpdateBookingContext();
         }
-
-
         [Given(@"booking by an Id to update")]
-        public void GivenBookingByAnIdToUpdate()
-        {
-            _updateBookingContext.AddHeaders();
-        }
-
+        public void GivenBookingByAnIdToUpdate(){}
         [When(@"sending the new datas")]
         public void WhenSendingTheNewDatas()
         {
             _updateBookingContext.AddBody();
         }
-
         [Then(@"should get back the new booking")]
         public void ThenShouldGetBackTheNewBooking()
         {
             _updateBookingContext.Response().firstname.Should().Be("Ádám");
         }
-
     }
 }

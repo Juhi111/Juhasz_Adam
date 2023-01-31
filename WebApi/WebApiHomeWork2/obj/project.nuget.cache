@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RN312Pf7sDGICo2byPROMk6p/ecXGeuh7ARaUHCELUHu5rM4DPfXrPyU7iahAx9y0qp/bNrMZxFPmPBijXoeag==",
+  "dgSpecHash": "YR8Go/NIb514eNy2VHKiypNB4awEsD/Ms2bV2jONE8w1uNIga8YG9RIytyLNwn++4ZZx4FV2z7qIBwr6tyYL/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\source\\repos\\WebApiHomeWork2\\WebApiHomeWork2.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\WEBUI\\VÉGLEGES\\WebApi\\WebApiHomeWork2\\WebApiHomeWork2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\restsharp\\108.0.3\\restsharp.108.0.3.nupkg.sha512"

@@ -5735,11 +5735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\WebApiHomeWork\\WebApiHomeWork.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\WEBUI\\VÉGLEGES\\WebApi\\WebApiHomeWork\\WebApiHomeWork.csproj",
       "projectName": "WebApiHomeWork",
-      "projectPath": "C:\\Users\\User\\source\\repos\\WebApiHomeWork\\WebApiHomeWork.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\WEBUI\\VÉGLEGES\\WebApi\\WebApiHomeWork\\WebApiHomeWork.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\WebApiHomeWork\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\WEBUI\\VÉGLEGES\\WebApi\\WebApiHomeWork\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5756,8 +5756,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\WebApiHomeWork2\\WebApiHomeWork2.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\WebApiHomeWork2\\WebApiHomeWork2.csproj"
+            "C:\\Users\\User\\Desktop\\WEBUI\\VÉGLEGES\\WebApi\\WebApiHomeWork2\\WebApiHomeWork2.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\WEBUI\\VÉGLEGES\\WebApi\\WebApiHomeWork2\\WebApiHomeWork2.csproj"
             }
           }
         }

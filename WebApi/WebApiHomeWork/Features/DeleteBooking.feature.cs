@@ -106,7 +106,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("a booking by an Id we want to delete", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 8
- testRunner.Then("after sended the request, should get the message \"created\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("after sended the request the booking should be deleted", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

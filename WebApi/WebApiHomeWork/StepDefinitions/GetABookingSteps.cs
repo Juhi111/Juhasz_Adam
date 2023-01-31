@@ -11,28 +11,19 @@ namespace WebApiHomeWork.StepDefinitions
     [Binding]
     public class GetABookingSteps
     {
-        private readonly RestClient _client;
         private readonly GetABookingContext _getABookingContext;
-
-        public GetABookingSteps(ScenarioContext context)
+        public GetABookingSteps()
         {
-            _client = context.Get<RestClient>("Client");
-            _getABookingContext = new GetABookingContext(_client);
+            _getABookingContext = new GetABookingContext();
         }
-
         [When(@"sending the ID")]
         public void WhenSendingTheID()
-        {
-            _getABookingContext.AddHeaders();            
-        }
-
+        {}
         [Then(@"should get a booking")]
         public void ThenShouldGetABooking()
         {
-            _getABookingContext.Deserialized().Should().NotBeNull();
+           _getABookingContext.Deserialized().firstname.Should().Be("Sally");
+           _getABookingContext.Deserialized().lastname.Should().Be("Wilson");
         }
-
-
-
     }
 }

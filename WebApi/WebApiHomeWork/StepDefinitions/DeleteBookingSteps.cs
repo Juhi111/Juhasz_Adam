@@ -1,9 +1,4 @@
 ﻿using RestSharp;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WebApiHomeWork2.Contexts;
 
 namespace WebApiHomeWork.StepDefinitions
@@ -11,28 +6,18 @@ namespace WebApiHomeWork.StepDefinitions
     [Binding]
     public class DeleteBookingSteps
     {
-        private readonly RestClient _client;
         private readonly DeleteBookingContext _deleteContext;
-
-        public DeleteBookingSteps(ScenarioContext context)
+        public DeleteBookingSteps()
         {
-            _client = context.Get<RestClient>("Client");
-            _deleteContext = new DeleteBookingContext(_client);
+            _deleteContext = new DeleteBookingContext();
         }
-
         [Given(@"a booking by an Id we want to delete")]
-        public void GivenABookingByAnIdWeWantToDelete()
+        public void GivenABookingByAnIdWeWantToDelete(){}
+        [Then(@"after sended the request the booking should be deleted")]
+        public void ThenAfterSendedTheRequestShouldGetTheMessage()
         {
-            _deleteContext.AddHeaders();
+            _deleteContext.Response();
+            _deleteContext.DeleteCheck().Content.Should().Be("Not Found");
         }
-
-        [Then(@"after sended the request, should get the message ""([^""]*)""")]
-        public void ThenAfterSendedTheRequestShouldGetTheMessage(string created)
-        {
-            _deleteContext.Response().Content.Should().Be("Created");
-        }
-
-
-
     }
 }

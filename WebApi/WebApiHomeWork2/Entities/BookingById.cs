@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WebApiHomeWork2.Entities
+﻿namespace WebApiHomeWork2.Entities
 {
             public class Bookingdates
         {
             public string? checkin { get; set; }
             public string? checkout { get; set; }
         }
-
         public class Root
         {
             public string? firstname { get; set; }
@@ -21,6 +14,5 @@ namespace WebApiHomeWork2.Entities
             public Bookingdates? bookingdates { get; set; }
             public string? additionalneeds { get; set; }
         }
-
     }
 

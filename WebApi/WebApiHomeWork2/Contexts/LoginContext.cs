@@ -1,34 +1,19 @@
 ﻿using Newtonsoft.Json;
 using RestSharp;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using WebApiHomeWork.Support;
 using WebApiHomeWork2.Entities;
 
 namespace WebApiHomeWork2.Contexts
 {
-    public class LoginContext
+    public class LoginContext : RequestBuilderBase
     {
-
-        private readonly RestClient _client;
-        private readonly RestRequest _request;
         private const string username = "admin";
         private const string password = "password123";
         private const string wrongpassword = "password1234";
-
-        public LoginContext(RestClient client)
+        public LoginContext() : base("/auth", Method.Post)
         {
-            _client = client;
-            _request = new RestRequest("/auth", Method.Post);
-        }
-
-        public void AddHeaders()
-        {
-            _request.AddHeader("Accept", "application/json");
-        }
-
+            AddHeaders("Accept", "application/json");            
+        }        
         public void AddBody()
         {
             _request.AddBody(new { username, password });
@@ -37,19 +22,13 @@ namespace WebApiHomeWork2.Contexts
         {
             _request.AddBody(new { username, password = wrongpassword });
         }
-
         public RestResponse Response()
         {
-            RestResponse response = _client.Execute(_request);
-            return response;
+            return GetRestResponse();
         }
-
         public Login DeserializeLoginResponse()
         {
-            RestResponse response = _client.Execute(_request);
-            Login token = JsonConvert.DeserializeObject<Login>(response.Content);
-            return token;
+            return JsonConvert.DeserializeObject<Login>(GetResponse());
         }
-
     }
 }

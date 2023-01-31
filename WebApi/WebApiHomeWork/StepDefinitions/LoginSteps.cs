@@ -12,31 +12,20 @@ namespace WebApiHomeWork.StepDefinitions
     public class LoginSteps
     {
         private readonly LoginContext _loginContext;
-        private readonly RestClient _client;       
-
         public LoginSteps(ScenarioContext context)
-        {            
-            _client = context.Get<RestClient>("Client");
-            _loginContext = new LoginContext(_client);
+        {
+            _loginContext = new LoginContext();
         }
-        
-
         [When(@"sending the request")]
         public void WhenSendingTheRequest()
         {
-            _loginContext.AddHeaders();
             _loginContext.AddBody();           
         }
-
         [Then(@"the statusCode should be Ok")]
         public void ThenTheStatusCodeShouldBeOk()
         {
-            var result = _loginContext.Response();
-            result.StatusCode.Should().Equals("OK");
-            var desResult = _loginContext.DeserializeLoginResponse();
-            desResult.Token.Should().NotBeNull();
+            _loginContext.Response().StatusCode.Should().Equals("OK");
+            _loginContext.DeserializeLoginResponse().Token.Should().NotBeNull();
         }
-
-
     }
 }
