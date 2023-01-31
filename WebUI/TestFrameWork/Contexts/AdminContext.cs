@@ -1,18 +1,16 @@
 ﻿using OpenQA.Selenium;
+using TestFrameWork.Helpers;
 using TestFrameWork.Pages;
 
 namespace TestFrameWork.Contexts
 {
-    public class AdminContext
+    public class AdminContext : DefaultContext
     {
         private readonly AdminPage _adminPage;
-        private readonly IWebDriver _driver;
-        public AdminContext(IWebDriver driver)
+        public AdminContext(IWebDriver driver) : base(driver)
         {
             _adminPage = new AdminPage(driver);
-            _driver = driver;
         }
-
         public void ClickOnJobMenuItem()
         { 
             _adminPage.JobMenuItem.Click();
@@ -21,8 +19,5 @@ namespace TestFrameWork.Contexts
         {
             _adminPage.PayGradesMenuItem.Click();
         }
-
-
-
     }
 }

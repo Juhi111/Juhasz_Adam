@@ -16,14 +16,10 @@ namespace WebUIHomework.Steps
             _driver = context.Get<IWebDriver>("Driver");
             _loginContext = new LoginContext(_driver);
         }
-
         [When(@"I login as admin user")]
         public void WhenILoginAsAdminUser()
         {
             _loginContext.Login(UserName, PassWord);
         }
-
-
-
     }
 }

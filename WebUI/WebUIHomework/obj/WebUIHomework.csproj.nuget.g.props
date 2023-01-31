@@ -23,6 +23,7 @@
     <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk\17.4.1\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk\17.4.1\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNUnit_ConsoleRunner Condition=" '$(PkgNUnit_ConsoleRunner)' == '' ">C:\Users\User\.nuget\packages\nunit.consolerunner\3.16.2</PkgNUnit_ConsoleRunner>
     <PkgBoDi Condition=" '$(PkgBoDi)' == '' ">C:\Users\User\.nuget\packages\bodi\1.5.0</PkgBoDi>
   </PropertyGroup>
 </Project>

@@ -58,3 +58,33 @@ C:\Users\User\Desktop\WEBUI\Új mappa (4)\TestFrameWork\obj\Debug\net6.0\TestFra
 C:\Users\User\Desktop\WEBUI\Új mappa (4)\TestFrameWork\obj\Debug\net6.0\refint\TestFrameWork.dll
 C:\Users\User\Desktop\WEBUI\Új mappa (4)\TestFrameWork\obj\Debug\net6.0\TestFrameWork.pdb
 C:\Users\User\Desktop\WEBUI\Új mappa (4)\TestFrameWork\obj\Debug\net6.0\ref\TestFrameWork.dll
+C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\bin\Debug\net6.0\TestFrameWork.deps.json
+C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\bin\Debug\net6.0\TestFrameWork.dll
+C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\bin\Debug\net6.0\TestFrameWork.pdb
+C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\obj\Debug\net6.0\TestFrameWork.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\obj\Debug\net6.0\TestFrameWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\obj\Debug\net6.0\TestFrameWork.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\obj\Debug\net6.0\TestFrameWork.AssemblyInfo.cs
+C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\obj\Debug\net6.0\TestFrameWork.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\obj\Debug\net6.0\TestFrameWork.dll
+C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\obj\Debug\net6.0\refint\TestFrameWork.dll
+C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\obj\Debug\net6.0\TestFrameWork.pdb
+C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\obj\Debug\net6.0\ref\TestFrameWork.dll
+C:\Users\User\Desktop\WEBUI\Küldési\WebUI\TestFrameWork\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+C:\Users\User\Desktop\WEBUI\Küldési\WebUI\TestFrameWork\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+C:\Users\User\Desktop\WEBUI\Küldési\WebUI\TestFrameWork\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\User\Desktop\WEBUI\Küldési\WebUI\TestFrameWork\bin\Debug\net6.0\TestFrameWork.deps.json
+C:\Users\User\Desktop\WEBUI\Küldési\WebUI\TestFrameWork\bin\Debug\net6.0\TestFrameWork.dll
+C:\Users\User\Desktop\WEBUI\Küldési\WebUI\TestFrameWork\bin\Debug\net6.0\TestFrameWork.pdb
+C:\Users\User\Desktop\WEBUI\Küldési\WebUI\TestFrameWork\obj\Debug\net6.0\TestFrameWork.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\WEBUI\Küldési\WebUI\TestFrameWork\obj\Debug\net6.0\TestFrameWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\WEBUI\Küldési\WebUI\TestFrameWork\obj\Debug\net6.0\TestFrameWork.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\WEBUI\Küldési\WebUI\TestFrameWork\obj\Debug\net6.0\TestFrameWork.AssemblyInfo.cs
+C:\Users\User\Desktop\WEBUI\Küldési\WebUI\TestFrameWork\obj\Debug\net6.0\TestFrameWork.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\WEBUI\Küldési\WebUI\TestFrameWork\obj\Debug\net6.0\TestFrameWork.dll
+C:\Users\User\Desktop\WEBUI\Küldési\WebUI\TestFrameWork\obj\Debug\net6.0\refint\TestFrameWork.dll
+C:\Users\User\Desktop\WEBUI\Küldési\WebUI\TestFrameWork\obj\Debug\net6.0\TestFrameWork.pdb
+C:\Users\User\Desktop\WEBUI\Küldési\WebUI\TestFrameWork\obj\Debug\net6.0\ref\TestFrameWork.dll

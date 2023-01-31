@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="2" result="Failed" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.16.2.0" clr-version="4.0.30319.42000" start-time="2023-01-27 12:53:10Z" end-time="2023-01-27 12:53:56Z" duration="45.361736">
+  <command-line><![CDATA[nunit3-console  C:\Users\User\Desktop\WEBUI\WebUI\WebUIHomework\bin\Debug\net6.0\WebUIHomework.dll]]></command-line>
+  <test-suite type="Assembly" id="1-1005" name="WebUIHomework.dll" fullname="C:/Users/User/Desktop/WEBUI/WebUI/WebUIHomework/bin/Debug/net6.0/WebUIHomework.dll" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2023-01-27T12:53:11.2064023Z" end-time="2023-01-27T12:53:56.0373565Z" duration="44.830902" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.13.3.0" clr-version="6.0.8" os-version="Microsoft Windows 10.0.19044" platform="Win32NT" cwd="C:\Users\User\Desktop\WEBUI\WebUI\Nunit\bin" machine-name="DESKTOP-L4RV7PD" user="User" user-domain="DESKTOP-L4RV7PD" culture="hu-HU" uiculture="hu-HU" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\User\Desktop\WEBUI\WebUI\Nunit\bin" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETCoreApp,Version=v6.0" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="netcore-6.0" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="22776" />
+      <property name="_APPDOMAIN" value="nunit-agent" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="SetUpFixture" id="1-1000" name="[default namespace]" fullname="WebUIHomework_NUnitAssemblyHooks" classname="WebUIHomework_NUnitAssemblyHooks" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2023-01-27T12:53:11.2124988Z" end-time="2023-01-27T12:53:56.0373066Z" duration="44.824808" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <output><![CDATA[-> Loading plugin C:\Users\User\Desktop\WEBUI\WebUI\WebUIHomework\bin\Debug\net6.0\LivingDoc.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\User\Desktop\WEBUI\WebUI\WebUIHomework\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\User\Desktop\WEBUI\WebUI\WebUIHomework\bin\Debug\net6.0\WebUIHomework.dll
+-> Using default config
+-> LivingDocPlugin: Output generated in: C:\Users\User\Desktop\WEBUI\WebUI\WebUIHomework\bin\Debug\net6.0\TestExecution.json
+]]></output>
+      <test-suite type="TestSuite" id="1-1006" name="WebUIHomework" fullname="WebUIHomework" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2023-01-27T12:53:11.5106044Z" end-time="2023-01-27T12:53:55.9688646Z" duration="44.458260" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1-1007" name="Features" fullname="WebUIHomework.Features" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2023-01-27T12:53:11.5106905Z" end-time="2023-01-27T12:53:55.9688548Z" duration="44.458164" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1-1003" name="AddANewRecordAndCancelFeature" fullname="WebUIHomework.Features.AddANewRecordAndCancelFeature" classname="WebUIHomework.Features.AddANewRecordAndCancelFeature" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2023-01-27T12:53:11.5107541Z" end-time="2023-01-27T12:53:30.9379272Z" duration="19.427174" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Description" value="AddANewRecordAndCancel" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1004" name="CancelTheAction" fullname="WebUIHomework.Features.AddANewRecordAndCancelFeature.CancelTheAction" methodname="CancelTheAction" classname="WebUIHomework.Features.AddANewRecordAndCancelFeature" runstate="Runnable" seed="1448695098" result="Failed" label="Error" start-time="2023-01-27T12:53:11.5134833Z" end-time="2023-01-27T12:53:30.9338123Z" duration="19.420431" asserts="0">
+              <properties>
+                <property name="Description" value="Cancel the action" />
+                <property name="Category" value="tag1" />
+              </properties>
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":".oxd-button oxd-button--medium oxd-button--ghost"}
+  (Session info: chrome=109.0.5414.120)
+TearDown : OpenQA.Selenium.InvalidSelectorException : invalid selector: Unable to locate an element with the xpath expression //i[@name='::before'[last()]] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': Type conversion failed while evaluating the expression.
+  (Session info: chrome=109.0.5414.120)]]></message>
+                <stack-trace><![CDATA[   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at TestFrameWork.Pages.AddPayGradePage.get_CancelButton() in C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\Pages\AddPayGradePage.cs:line 16
+   at TestFrameWork.Contexts.CancelPayGradeContext.AddCurrencyAndCancel() in C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\Contexts\CancelPayGradeContext.cs:line 29
+   at WebUIHomework.Steps.CancelThePayGradeSteps.WhenIAddANewRecordButInsteadOfSavingCancelIt() in C:\Users\User\Desktop\WEBUI\WebUI\WebUIHomework\Steps\CancelThePayGradeSteps.cs:line 23
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at WebUIHomework.Features.AddANewRecordAndCancelFeature.ScenarioCleanup()
+   at WebUIHomework.Features.AddANewRecordAndCancelFeature.CancelTheAction() in C:\Users\User\Desktop\WEBUI\WebUI\WebUIHomework\Features\AddANewRecordAndCancel.feature:line 12
+--TearDown
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at TestFrameWork.Pages.PayGradePage.get_DeleteButton() in C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\Pages\PayGradePage.cs:line 11
+   at TestFrameWork.Contexts.PayGradeContext.DeleteData() in C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\Contexts\PayGradeContext.cs:line 19
+   at WebUIHomework.Hooks.DeleteData() in C:\Users\User\Desktop\WEBUI\WebUI\WebUIHomework\Hooks.cs:line 30
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.FireEvents(HookType hookType)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.FireScenarioEvents(HookType bindingEvent)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnScenarioEnd()
+   at TechTalk.SpecFlow.TestRunner.OnScenarioEnd()
+   at WebUIHomework.Features.AddANewRecordAndCancelFeature.TestTearDown()]]></stack-trace>
+              </failure>
+              <output><![CDATA[Given I navigate to application
+-> done: NavigationSteps.GivenINavigateToApplication() (1,6s)
+When I login as admin user
+-> done: LoginSteps.WhenILoginAsAdminUser() (1,5s)
+When i navigate to AdminPage
+-> done: AddANewRecordSteps.WhenINavigateToAdminPage() (1,4s)
+When i navigate to PayGrades
+-> done: AddANewRecordSteps.WhenINavigateToPayGrades() (0,8s)
+When I add a new record but instead of saving, cancel it
+-> error: no such element: Unable to locate element: {"method":"css selector","selector":".oxd-button oxd-button--medium oxd-button--ghost"}
+  (Session info: chrome=109.0.5414.120) (12,2s)
+Then it shouldnt be on the PayGrade page
+-> skipped because of previous errors
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1-1001" name="AddingANewRecordFeature" fullname="WebUIHomework.Features.AddingANewRecordFeature" classname="WebUIHomework.Features.AddingANewRecordFeature" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2023-01-27T12:53:30.9394960Z" end-time="2023-01-27T12:53:55.9688316Z" duration="25.029334" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Description" value="Adding a new record" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1002" name="AddingANewRecord" fullname="WebUIHomework.Features.AddingANewRecordFeature.AddingANewRecord" methodname="AddingANewRecord" classname="WebUIHomework.Features.AddingANewRecordFeature" runstate="Runnable" seed="1528564956" result="Failed" label="Error" start-time="2023-01-27T12:53:30.9399757Z" end-time="2023-01-27T12:53:55.9684812Z" duration="25.028506" asserts="0">
+              <properties>
+                <property name="Description" value="Adding a new record" />
+                <property name="Category" value="tag1" />
+              </properties>
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":".orangehrm-action-header .oxd-button--secondary"}
+  (Session info: chrome=109.0.5414.120)
+TearDown : OpenQA.Selenium.InvalidSelectorException : invalid selector: Unable to locate an element with the xpath expression //i[@name='::before'[last()]] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': Type conversion failed while evaluating the expression.
+  (Session info: chrome=109.0.5414.120)]]></message>
+                <stack-trace><![CDATA[   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at TestFrameWork.Pages.AddPayGradePage.get_AddButton() in C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\Pages\AddPayGradePage.cs:line 11
+   at TestFrameWork.Contexts.AddPayGradeContext.AddCurrencyAndSave() in C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\Contexts\AddPayGradeContext.cs:line 25
+   at WebUIHomework.Steps.AddANewRecordSteps.WhenIAddANewRecordAndSaveIt() in C:\Users\User\Desktop\WEBUI\WebUI\WebUIHomework\Steps\AddANewRecordSteps.cs:line 42
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at WebUIHomework.Features.AddingANewRecordFeature.ScenarioCleanup()
+   at WebUIHomework.Features.AddingANewRecordFeature.AddingANewRecord() in C:\Users\User\Desktop\WEBUI\WebUI\WebUIHomework\Features\AddANewRecord.feature:line 12
+--TearDown
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at TestFrameWork.Pages.PayGradePage.get_DeleteButton() in C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\Pages\PayGradePage.cs:line 11
+   at TestFrameWork.Contexts.PayGradeContext.DeleteData() in C:\Users\User\Desktop\WEBUI\WebUI\TestFrameWork\Contexts\PayGradeContext.cs:line 19
+   at WebUIHomework.Hooks.DeleteData() in C:\Users\User\Desktop\WEBUI\WebUI\WebUIHomework\Hooks.cs:line 30
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.FireEvents(HookType hookType)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.FireScenarioEvents(HookType bindingEvent)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnScenarioEnd()
+   at TechTalk.SpecFlow.TestRunner.OnScenarioEnd()
+   at WebUIHomework.Features.AddingANewRecordFeature.TestTearDown()]]></stack-trace>
+              </failure>
+              <output><![CDATA[Given I navigate to application
+-> done: NavigationSteps.GivenINavigateToApplication() (7,6s)
+When I login as admin user
+-> done: LoginSteps.WhenILoginAsAdminUser() (2,0s)
+When i navigate to AdminPage
+-> done: AddANewRecordSteps.WhenINavigateToAdminPage() (1,7s)
+When i navigate to PayGrades
+-> done: AddANewRecordSteps.WhenINavigateToPayGrades() (0,7s)
+When i add a new record and save it
+-> error: no such element: Unable to locate element: {"method":"css selector","selector":".orangehrm-action-header .oxd-button--secondary"}
+  (Session info: chrome=109.0.5414.120) (11,3s)
+Then its should be in the Currencies block
+-> skipped because of previous errors
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

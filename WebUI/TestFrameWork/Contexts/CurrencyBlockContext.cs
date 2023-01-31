@@ -1,18 +1,16 @@
 ﻿using OpenQA.Selenium;
+using TestFrameWork.Helpers;
 using TestFrameWork.Pages;
 
 namespace TestFrameWork.Contexts
 {
-    public class CurrencyBlockContext
+    public class CurrencyBlockContext : DefaultContext
     {
         private readonly CurrencyBlock _currencyBlock;
-        private readonly IWebDriver _driver;
-        public CurrencyBlockContext(IWebDriver driver)
+        public CurrencyBlockContext(IWebDriver driver) : base(driver)
         {
             _currencyBlock = new CurrencyBlock(driver);
-            _driver = driver;
         }
-
         public string MinimumSalary()
         {
             var minimumSalary = _currencyBlock.Min.Text;
@@ -23,6 +21,5 @@ namespace TestFrameWork.Contexts
             var maximumSalary = _currencyBlock.Max.Text;
             return maximumSalary;
         }
-
     }
 }

@@ -1,18 +1,12 @@
 ﻿using OpenQA.Selenium;
+using TestFrameWork.Helpers;
 
 namespace TestFrameWork.Pages
 {
-    public class AdminPage
+    public class AdminPage : DefaultPage
     {
-
-        private readonly IWebDriver _driver;
-        public AdminPage(IWebDriver driver)
-        {
-            _driver = driver;
-        }       
-        
-        public IWebElement JobMenuItem => _driver.FindElement(By.XPath("//*[@id=\"app\"]/div[1]/div[1]/header/div[2]/nav/ul/li[2]/span"));
-        
-        public IWebElement PayGradesMenuItem => _driver.FindElement(By.XPath("//*[@id=\"app\"]/div[1]/div[1]/header/div[2]/nav/ul/li[2]/ul/li[2]/a"));
+        public AdminPage(IWebDriver driver) :base(driver){}   
+        public IWebElement JobMenuItem => _driver.FindElement(By.CssSelector("li:nth-of-type(2) > .oxd-topbar-body-nav-tab-item"));
+        public IWebElement PayGradesMenuItem => _driver.FindElement(By.CssSelector("li:nth-of-type(2) > a[role='menuitem']"));
     }
 }
