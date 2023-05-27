@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\OTP_Feladatok\bin\Debug\net6.0\OTP_Feladatok.exe
+C:\Users\User\source\repos\OTP_Feladatok\bin\Debug\net6.0\OTP_Feladatok.deps.json
+C:\Users\User\source\repos\OTP_Feladatok\bin\Debug\net6.0\OTP_Feladatok.runtimeconfig.json
+C:\Users\User\source\repos\OTP_Feladatok\bin\Debug\net6.0\OTP_Feladatok.dll
+C:\Users\User\source\repos\OTP_Feladatok\bin\Debug\net6.0\OTP_Feladatok.pdb
+C:\Users\User\source\repos\OTP_Feladatok\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\User\source\repos\OTP_Feladatok\obj\Debug\net6.0\OTP_Feladatok.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\OTP_Feladatok\obj\Debug\net6.0\OTP_Feladatok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\OTP_Feladatok\obj\Debug\net6.0\OTP_Feladatok.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\OTP_Feladatok\obj\Debug\net6.0\OTP_Feladatok.AssemblyInfo.cs
+C:\Users\User\source\repos\OTP_Feladatok\obj\Debug\net6.0\OTP_Feladatok.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\OTP_Feladatok\obj\Debug\net6.0\OTP_Feladatok.csproj.CopyComplete
+C:\Users\User\source\repos\OTP_Feladatok\obj\Debug\net6.0\OTP_Feladatok.dll
+C:\Users\User\source\repos\OTP_Feladatok\obj\Debug\net6.0\refint\OTP_Feladatok.dll
+C:\Users\User\source\repos\OTP_Feladatok\obj\Debug\net6.0\OTP_Feladatok.pdb
+C:\Users\User\source\repos\OTP_Feladatok\obj\Debug\net6.0\OTP_Feladatok.genruntimeconfig.cache
+C:\Users\User\source\repos\OTP_Feladatok\obj\Debug\net6.0\ref\OTP_Feladatok.dll
