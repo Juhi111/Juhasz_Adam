@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "e3aeba32-2bce-4a32-9aae-fcc3f1d4420c",
+		"name": "OTP_API_TEST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "szűrt üzenetek",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7201/api/calendarevent/üzenet",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7201",
+					"path": [
+						"api",
+						"calendarevent",
+						"üzenet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "szúrt üzenetek üres",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7201/api/calendarevent/kapatosjancsi",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7201",
+					"path": [
+						"api",
+						"calendarevent",
+						"kapatosjancsi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "üzenet hozzáadás",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"821dt47a-9i47-4a9c-ace7-90b1becf1a76\",\r\n    \"parentId\": \"4d94ff2d-3132-4e8f-b128-5e845300206f\",\r\n    \"userId\": \"UC68N195Y\",\r\n    \"ts\": \"2022-11-04T11:05:49\",\r\n    \"content\": \"Az üzenetek szülő-gyermek kapcsolatban állnak egymással a parentId proprty-n keresztül.\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7201/api/calendarevent/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7201",
+					"path": [
+						"api",
+						"calendarevent",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "üzenet hozzáadás meglévő id-ra",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"4d94ff2d-3132-4e8f-b128-5e845300206f\",\r\n    \"parentId\": \"4d94ff2d-3132-4e8f-b128-5e845300206f\",\r\n    \"userId\": \"UC68N195Y\",\r\n    \"ts\": \"2022-11-04T11:05:49\",\r\n    \"content\": \"Ez egy teszt hozzáadás.\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7201/api/calendarevent/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7201",
+					"path": [
+						"api",
+						"calendarevent",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "4d94ff2d-3132-4e8f-b128-5e845300206f",
+    "parentId": null,
+    "userId": "U8MFE4LN7",
+    "ts": "2022-11-04T11:15:20",
+    "content": "Készíts egy alkalmazást, amely a mellékelt adatfájlokból felolvassa, és időrendben megjeleníti a bejegyzéseket"
+  },
+  {
+    "id": "871dc47a-9b47-4a9c-ace7-90b1becf1a76",
+    "parentId": "4d94ff2d-3132-4e8f-b128-5e845300206f",
+    "userId": "UC68N195Y",
+    "ts": "2022-11-04T11:17:50",
+    "content": "Az üzenetek szülő-gyermek kapcsolatban állnak egymással a parentId proprty-n keresztül."
+  },
+  {
+    "id": "398c6a23-0518-4238-8ac5-fedf245881b9",
+    "parentId": "4d94ff2d-3132-4e8f-b128-5e845300206f",
+    "userId": "UC68N195Y",
+    "ts": "2022-11-04T11:17:50",
+    "content": "A gyermek üzeneteket a szülő üzenet alatt, behúzással jelenítsd meg a konzlon (használhatsz színeket is)."
+  },  
+  {
+    "id": "b34db7b7-f8b8-4eaf-b640-b8f9742a1677",
+    "parentId": null,
+    "userId": "UAQT0P4G6",
+    "ts": "2022-11-04T11:30:10",
+    "content": "A feladat megoldásához VS2019, VS2022, VSCODE használható."
+  },
+  {
+    "id": "ebdf36ba-c06e-4e24-a359-ac25a37fc620",
+    "parentId": "b34db7b7-f8b8-4eaf-b640-b8f9742a1677",
+    "userId": "U8MFE4LN7",
+    "ts": "2022-11-04T11:32:10",
+    "content": "A megvalósításhoz .NET 6 vagy .NET Framework 4.7+ verzió használható"
+  },  
+  {
+    "id": "13a264aa-78c8-454b-99cb-5f95b535aa7e",
+    "parentId": "b34db7b7-f8b8-4eaf-b640-b8f9742a1677",
+    "userId": "U8MFE4LN7",
+    "ts": "2022-11-04T11:33:10",
+    "content": "A feladattal szemben támasztott minimális követelmény a Clean Coding alkalmazása és hiba nélküli fordítás."
+  },
+  {
+    "id": "20bd89d8-f71d-4bc4-a085-a54c06bdd97b",
+    "parentId": null,
+    "userId": "U8MFE4LN7",
+    "ts": "2022-11-04T11:34:10",
+    "content": "A feladat második részében készíts egy WEB API-t a kiírásban szereplő két végponttal."
+  },
+  {
+    "id": "b711ed62-cc04-4d56-a4ea-ed14428b616f",
+    "parentId": null,
+    "userId": "U8MFE4LN7",
+    "ts": "2022-11-04T15:34:10",
+    "content": "A REST API megvalósításához használhatod a Minimal API vagy az MVC megközelítést."
+  },
+  {
+    "id": "71082f48-9f05-4e17-b45b-994981469ca3",
+    "parentId": "b711ed62-cc04-4d56-a4ea-ed14428b616f",
+    "userId": "UC68N195Y",
+    "ts": "2022-11-04T15:36:10",
+    "content": "Swagger és swagger UI használata nem kötelező. A teszteléshez hasznlhatod a Postman-t is."
+  },
+  {
+    "id": "4183d446-19d9-44fa-b4da-237c63217f7c",
+    "parentId": "b711ed62-cc04-4d56-a4ea-ed14428b616f",
+    "userId": "UC68N195Y",
+    "ts": "2022-11-04T15:40:10",
+    "content": "A harmadik részben implementálj tanúsítvány alapú autentikációt az API-ba és autorizáld az egyik végpontot!"
+  },
+  {
+    "id": "b2af8551-a198-4f0e-8eef-b45552fba2f5",
+    "parentId": "b711ed62-cc04-4d56-a4ea-ed14428b616f",
+    "userId": "UC68N195Y",
+    "ts": "2022-11-04T15:42:10",
+    "content": "Figyelj arra, hogy milyen tanúsítványt használsz, mert a felhasznált tanúsítványt csatolnod kell a forráshoz."
+  },
+    {
+    "id": "812e2fb3-3991-46e5-bf52-9d50f0842c1d",
+    "parentId": null,
+    "userId": "UC68N195Y",
+    "ts": "2022-11-04T15:44:10",
+    "content": "Beadandó az elkészült VS solution .zip-be csomagolva. A csomagba bele kell tenni a felhasznált tanúsítványt is."
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "PIQNWNIErwYmyk2M0Ev5lPvnemYF2YmZ80VaTZz7mOM=",
+  "Source": "OTP_API",
+  "BasePath": "_content/OTP_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
