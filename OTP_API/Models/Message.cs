@@ -7,5 +7,11 @@
         public string? UserId { get; set; }
         public DateTime? Ts { get; set; }
         public string? Content { get; set; }
+
+
+        public override string ToString()
+        {
+            return Id + "\n " + ParentId + "\n " + UserId + "\n " + Ts + "\n " + Content ;
+        }
     }
 }

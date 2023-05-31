@@ -9,17 +9,17 @@ namespace OTP_API.Controllers
     [ApiController]
 
     
-    public class CalendarEventController : ControllerBase
+    public class MessageController : ControllerBase
     {
         GetMessages lc = new GetMessages();        
-        // GET: api/calendarevent
+        // GET: api/message
         [HttpGet]
         public List<Message> Get()
         {
             return lc.MessagesList;
         }
 
-        // GET api/calendarevent/text
+        // GET api/message/text
         [HttpGet("{text}")]
         public List<string> Get(string text)
         {
@@ -32,26 +32,26 @@ namespace OTP_API.Controllers
             return onlyMessages;
         }
 
-        // POST api/calendarevent/
+        // POST api/message/
         [HttpPost]
-        public bool Post([FromBody] Message value)
+        public string Post([FromBody] Message value)
         {
             if (lc.MessagesList.FindIndex(x => x.Id == value.Id) < 0)
             {
                 lc.MessagesList.Add(value);
-                return true;
+                return value.ToString();
             }
-            else return false;
+            else return "Fail! Exicting ID";
 
         }
 
-        //// PUT api/calendarevent/2
+        //// PUT api/message/2
         //[HttpPut("{id}")]
         //public void Put(Guid id, [FromBody] int value)
         //{
         //}
 
-        //// DELETE api/calendarevent/1
+        //// DELETE api/message/1
         //[HttpDelete("{id}")]
         //public void Delete(Guid id)
         //{
