@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OTP_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f989ab462fa916d7132f09128fb1d100b2a7db80")]
 [assembly: System.Reflection.AssemblyProductAttribute("OTP_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OTP_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
